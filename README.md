@@ -1,6 +1,6 @@
 
 # Dendrite
-
+ 
 Dendrite is a second-generation Matrix homeserver written in Go.
 It intends to provide an **efficient**, **reliable** and **scalable** alternative to [Synapse](https://github.com/matrix-org/synapse):
 
