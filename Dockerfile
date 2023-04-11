@@ -41,7 +41,6 @@ COPY --from=build /out/generate-config /usr/bin/generate-config
 COPY --from=build /out/generate-keys /usr/bin/generate-keys
 COPY --from=build /out/dendrite /usr/bin/dendrite
 
-VOLUME /etc/dendrite
 WORKDIR /etc/dendrite
 
 ENTRYPOINT ["/usr/bin/dendrite"]
